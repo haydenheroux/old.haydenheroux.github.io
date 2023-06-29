@@ -1,8 +1,9 @@
 # Setup
-title: Poole
-tagline: The Jekyll Butler
-url: https://getpoole.com
+title: Hayden Heroux
+tagline: Programming Blog
+url: https://haydenheroux.github.io
 paginate: 1
+paginate_path: "/:num/"
 baseurl: ""
 permalink: pretty
 
@@ -33,9 +34,9 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: Hayden Heroux
+  url: https://github.com/haydenheroux
+  email: haydenheroux@gmail.com
 
 # Custom vars
 version: 3.0.0
