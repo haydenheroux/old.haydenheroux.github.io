@@ -3,8 +3,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>
-    {% if page.title == "Home" %} {{ site.title }} {% else %} {{ page.title }}
-    &middot; {{ site.title }} {% endif %}
+    {% if page.title == "Home" %} {{ site.title | downcase }} {% else %} {{ page.title | downcase }}
+    &middot; {{ site.title | downcase }} {% endif %}
   </title>
 
   <link rel="stylesheet" href="{{ 'styles.css' | relative_url }}" />
