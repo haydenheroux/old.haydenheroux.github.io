@@ -63,10 +63,6 @@ h1, nav {
     body {
         width: 100%;
     }
-
-    main {
-        font-size: normal;
-    }
 }
 
 main {
@@ -74,6 +70,16 @@ main {
     font-family: 'Open Sans', sans-serif;
     text-transform: none;
     margin-bottom: 2em;
+
+}
+
+main h1 {
+    margin-bottom: 1em;
+    font-weight: normal;
+}
+
+main p {
+    margin-bottom: 1em;
 }
 
 nav {
@@ -89,13 +95,4 @@ nav ul {
 
 nav ul li {
     margin-right: 10px;
-}
-
-main h2, main p {
-    margin-bottom: 1em;
-}
-
-main h2 {
-    text-transform: capitalize;
-    font-weight: normal;
 }

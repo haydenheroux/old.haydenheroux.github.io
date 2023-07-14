@@ -4,7 +4,7 @@ title: Audio
 ---
 
 <main>
-    <h2>Audio</h2>
+    <h1>Audio</h1>
     <ul>
       {% for post in site.tags.audio %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
