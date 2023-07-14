@@ -1,12 +1,14 @@
 :root {
   --foreground: #333;
   --background: #fdfdfd;
+  --accent: #0cf;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground: #fdfdfd;
     --background: #333;
+    --accent: #f8b3da;
   }
 }
 
@@ -27,8 +29,8 @@ body {
 }
 
 a {
-  color: var(--foreground);
-  text-decoration: underline dotted var(--foreground);
+  color: var(--accent);
+  text-decoration: underline dotted var(--accent);
 }
 
 html {
