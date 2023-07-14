@@ -97,4 +97,5 @@ main h2, main p {
 
 main h2 {
     text-transform: capitalize;
+    font-weight: normal;
 }
