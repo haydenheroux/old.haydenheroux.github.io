@@ -1,6 +1,8 @@
 # Setup
 title: Hayden Heroux
+description: Software, audio, and design blog.
 url: https://haydenheroux.github.io
+logo: /assets/icon.png
 baseurl: ""
 permalink: pretty
 
