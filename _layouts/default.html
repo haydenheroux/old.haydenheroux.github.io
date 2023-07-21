@@ -7,6 +7,10 @@
       <h1>Hayden Heroux</h1>
       <nav>
         <ul>
+          {% if page.title != "Home" %}
+          <li><a href="{{ site.url }}">Home</a></li>
+          {% endif %}
+          <li><a href="{{ 'all' | relative_url }}">All</a></li>
           <li><a href="{{ 'software' | relative_url }}">Software</a></li>
           <li><a href="{{ 'audio' | relative_url }}">Audio</a></li>
           <li><a href="{{ 'design' | relative_url }}">Design</a></li>
@@ -17,9 +21,6 @@
     <footer>
       <nav>
         <ul>
-          {% if page.title != "Home" %}
-          <li><a href="{{ site.url }}">Home</a></li>
-          {% endif %}
           <li><a href="https://www.github.com/haydenheroux/">GitHub</a></li>
         </ul>
       </nav>

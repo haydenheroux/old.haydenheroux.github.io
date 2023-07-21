@@ -44,14 +44,13 @@ html {
 }
 
 body {
-  width: max(400px, 40%);
+  max-width: 800px;
   color: var(--foreground);
   padding: 10px;
 }
 
 h1 {
   font-size: xx-large;
-  text-align: center;
 }
 
 nav,
@@ -89,7 +88,6 @@ main p {
 
 nav {
   display: flex;
-  justify-content: center;
 }
 
 nav ul {
