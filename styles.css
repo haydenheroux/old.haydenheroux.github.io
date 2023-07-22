@@ -63,13 +63,12 @@ main {
 
 h1,
 nav,
-article ul li a {
+section {
   text-transform: lowercase;
 }
 
 main {
   margin-top: 2em;
-  /* font-family: "Open Sans", sans-serif; */
   text-transform: none;
   margin-bottom: 2em;
 }

@@ -4,10 +4,7 @@ title: Design
 ---
 
 <main>
-    <h1 class="tag">Design</h1>
-    <ul>
-      {% for post in site.tags.design %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
+  {% assign heading = "Design" %}
+  {% assign posts = site.tags.design %}
+  {% include section.html %}
 </main>

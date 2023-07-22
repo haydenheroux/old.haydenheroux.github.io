@@ -4,10 +4,7 @@ title: Software
 ---
 
 <main>
-    <h1 class="tag">Software</h1>
-    <ul>
-      {% for post in site.tags.software %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
+  {% assign heading = "Software" %}
+  {% assign posts = site.tags.software %}
+  {% include section.html %}
 </main>

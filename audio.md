@@ -4,10 +4,7 @@ title: Audio
 ---
 
 <main>
-    <h1 class="tag">Audio</h1>
-    <ul>
-      {% for post in site.tags.audio %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
+  {% assign heading = "Audio" %}
+  {% assign posts = site.tags.audio %}
+  {% include section.html %}
 </main>
