@@ -132,7 +132,7 @@ footer {
   font-weight: 400;
   margin-bottom: 0.75rem;
   font-size: 2rem;
-  text-transform: none;
+  text-transform: lowercase;
 }
 
 time {
