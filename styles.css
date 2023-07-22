@@ -2,6 +2,7 @@
   --foreground: #000;
   --background: #fff;
   --dim: rgba(0, 0, 0, 0.1);
+  --half-dim: #747373;
   --accent: #0cf;
 }
 
@@ -9,6 +10,7 @@
   :root {
     --foreground: #e8e8e8;
     --background: #212529;
+    --dim: #424246;
     --dim: #424246;
     --accent: #f8b3da;
   }
@@ -126,4 +128,23 @@ footer {
 
 header h1 {
   margin-bottom: 1rem;
+}
+
+.post {
+  padding: 1.25rem;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.post h1 {
+  font-weight: 400;
+  margin-bottom: 0.75rem;
+  font-size: 2rem;
+  text-transform: none;
+}
+
+.post time {
+  text-transform: capitalize;
+  font-size: .9rem;
+  color: var(--half-dim);
+  font-weight: 400;
 }
