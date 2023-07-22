@@ -48,9 +48,26 @@ html {
 }
 
 body {
-  width: min(50%, 800px);
+  width: 100%;
+  max-width: 800px;
   color: var(--foreground);
   padding: 10px;
+}
+
+@media (width >= 576px) {
+  body { width: 540px; }
+}
+
+@media (width >= 768px) {
+  body { width: 720px; }
+}
+
+@media (width >= 992px) {
+  body { width: 960px; }
+}
+
+@media (width >= 1200px) {
+  body { width: 1140px; }
 }
 
 h1 {
