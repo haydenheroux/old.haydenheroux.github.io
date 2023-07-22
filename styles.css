@@ -1,13 +1,15 @@
 :root {
-  --foreground: #333;
-  --background: #fdfdfd;
+  --foreground: #000;
+  --background: #fff;
+  --dim: rgba(0, 0, 0, 0.1);
   --accent: #0cf;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground: #fdfdfd;
-    --background: #333;
+    --foreground: #e8e8e8;
+    --background: #212529;
+    --dim: #424246;
     --accent: #f8b3da;
   }
 }
@@ -26,6 +28,7 @@ body {
 
 * {
   color: var(--foreground);
+  font-family: "Open Sans", sans-serif;
 }
 
 a {
@@ -44,13 +47,13 @@ html {
 }
 
 body {
-  max-width: 800px;
+  width: min(50%, 800px);
   color: var(--foreground);
   padding: 10px;
 }
 
 h1 {
-  font-size: xx-large;
+  font-size: 2.5rem;
 }
 
 nav,
@@ -59,20 +62,14 @@ main {
 }
 
 h1,
-nav {
+nav,
+article ul li a {
   text-transform: lowercase;
-  font-family: "Source Code Pro", monospace;
-}
-
-@media (max-width: 400px) {
-  body {
-    width: 100%;
-  }
 }
 
 main {
   margin-top: 2em;
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
   text-transform: none;
   margin-bottom: 2em;
 }
@@ -98,4 +95,36 @@ nav ul {
 
 nav ul li {
   margin-right: 10px;
+  font-size: 1rem;
+}
+
+h1, h2 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+.tag {
+  text-align: right;
+  color: var(--dim);
+  border-bottom: 1px solid var(--dim);
+  padding-top: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+header {
+  margin-bottom: 1rem;
+}
+
+footer {
+  margin-top: 1rem;
+}
+
+header h1 {
+  margin-bottom: 1rem;
 }

@@ -1,14 +1,13 @@
 ---
 layout: default
-title: Posts
+title: Tags
 ---
 
 <main>
-  {% assign postsByYearMonth = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
-  {% for yearMonth in postsByYearMonth %}
-    <h1>{{ yearMonth.name }}</h1>
+  {% for tag in site.tags %}
+    <h1 class="tag">{{ tag[0] }}</h1>
     <ul>
-      {% for post in yearMonth.items %}
+      {% for post in tag[1] %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
