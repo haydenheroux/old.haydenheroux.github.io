@@ -6,6 +6,9 @@ logo: /assets/icon.png
 baseurl: ""
 permalink: pretty
 
+markdown: kramdown
+highlighter: rouge
+
 # Gems
 plugins:
   - jekyll-gist
