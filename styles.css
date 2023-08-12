@@ -53,6 +53,10 @@ html {
 
 body {
   width: 100%;
+}
+
+#container {
+  width: 100%;
   max-width: 800px;
   color: var(--foreground);
   padding: 10px;
