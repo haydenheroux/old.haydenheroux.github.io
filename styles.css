@@ -63,19 +63,19 @@ body {
 }
 
 @media (width >= 576px) {
-  body { width: 540px; }
+  #container { max-width: 540px; }
 }
 
 @media (width >= 768px) {
-  body { width: 720px; }
+  #container { max-width: 720px; }
 }
 
 @media (width >= 992px) {
-  body { width: 960px; }
+  #container { max-width: 960px; }
 }
 
 @media (width >= 1200px) {
-  body { width: 1140px; }
+  #container { max-width: 1140px; }
 }
 
 h1 {
