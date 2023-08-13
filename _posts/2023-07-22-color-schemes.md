@@ -14,9 +14,13 @@ tags: design
     }
 
     .box span {
+        color: var(--clr-neutral-900);
+
+        font-family: var(--ff-mono);
+        font-weight: var(--ff-mono-weight)
+
         text-align: center;
         text-transform: uppercase;
-        font-family: "Source Code Pro", monospace;
     }
 </style>
 
