@@ -111,14 +111,33 @@ nav ul {
   list-style-type: none;
 
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
 
   margin: 0;
   padding: 0;
 }
 
-nav ul>* {
+nav ul div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 25em) {
+  nav ul {
+    flex-direction: row;
+  }
+
+  nav ul div {
+    flex-direction: row;
+  }
+}
+
+nav ul li {
+  text-align: center;
+
   margin: 0 0.5em;
   padding: 0.5em;
 }
