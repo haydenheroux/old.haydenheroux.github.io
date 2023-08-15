@@ -6,21 +6,26 @@ tags: design
 
 <style>
     .box {
-        width: 100%;
-        padding: 1rem;
+        width: 80%;
+        max-width: 30rem;
+
         display: grid;
         grid-template-columns: 1fr 3fr;
-        margin-bottom: 1rem;
+
+        margin-inline: auto;
+        padding: 1rem;
     }
 
     .box span {
         color: var(--clr-neutral-900);
 
         font-family: var(--ff-mono);
-        font-weight: var(--ff-mono-weight)
+        font-weight: var(--ff-mono-weight);
 
         text-align: center;
         text-transform: uppercase;
+
+        padding-inline: 1rem;
     }
 </style>
 
