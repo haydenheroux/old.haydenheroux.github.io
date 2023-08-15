@@ -73,7 +73,7 @@ h2 {
 }
 
 h1 {
-  font-size: var(--fs-700);
+  font-size: var(--fs-600);
 }
 
 header h1 {
@@ -83,7 +83,7 @@ header h1 {
 }
 
 h2 {
-  font-size: var(--fs-600);
+  font-size: var(--fs-500);
 }
 
 a {
@@ -186,4 +186,8 @@ h2 {
 .tag {
   margin-bottom: 1rem;
   padding-bottom: 0.375rem;
+}
+
+.header {
+  margin-bottom: 2rem;
 }
