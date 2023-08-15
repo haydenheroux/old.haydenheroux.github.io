@@ -153,6 +153,10 @@ nav ul li {
   border-bottom: 1px solid var(--clr-neutral-800);
 }
 
+.post h1 {
+  line-height: 1.4;
+}
+
 /* Layout */
 
 header,
