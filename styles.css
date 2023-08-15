@@ -184,7 +184,7 @@ p,
 time,
 h1,
 h2 {
-  margin-bottom: 0.5rem;
+  margin-block: 1rem;
 }
 
 .tag {
@@ -194,4 +194,8 @@ h2 {
 
 .header {
   margin-bottom: 2rem;
+}
+ 
+.header h1 {
+  margin-bottom: 0.5rem;
 }
