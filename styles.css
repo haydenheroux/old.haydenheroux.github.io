@@ -163,11 +163,13 @@ img {
 }
 
 div.highlight, figure.highlight {
+  background-color: var(--clr-highlight-background);
+
   font-family: var(--ff-mono);
   font-weight: var(--ff-mono-weight);
   font-size: var(--fs-300);
 
-  background-color: var(--clr-highlight-background);
+  overflow: scroll;
 
   border: 1px solid var(--clr-highlight-border);
   border-radius: 0.5rem;
