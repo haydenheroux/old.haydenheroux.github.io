@@ -1,4 +1,4 @@
-@import url("rouge-light.css");
+@import url("rouge.css");
 
 :root {
   --clr-neutral-100: #fff;
@@ -8,7 +8,6 @@
   --clr-accent: #0cf;
   --clr-highlight-background: #212529;
   --clr-highlight-border: var(--clr-highlight-background);
-  --clr-highlight-lineno: #e8e8e8;
   --ff-main: "Open Sans", sans-serif;
   --ff-main-weight: 400;
   --ff-emphasis: "Open Sans", sans-serif;
@@ -174,13 +173,6 @@ div.highlight, figure.highlight {
   border-radius: 0.5rem;
 
   padding: 1rem;
-}
-
-td.gutter.gl {
-  color: var(--clr-highlight-lineno);
-  font-family: var(--ff-mono);
-  font-weight: var(--ff-mono-weight);
-  font-size: var(--fs-300);
 }
 
 /* Layout */

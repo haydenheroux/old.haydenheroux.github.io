@@ -19,7 +19,7 @@
 .highlight .o, .highlight .ow {
   color: #d0d0d0;
 }
-.highlight .p, .highlight .pi {
+.highlight .p, .highlight .pi, .highlight .py, .highlight .gl {
   color: #d0d0d0;
 }
 .highlight .gi {
