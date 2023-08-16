@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tags
+title: All
 ---
 
 {% for tag in site.tags %}
