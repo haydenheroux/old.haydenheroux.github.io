@@ -157,6 +157,10 @@ nav ul li {
   line-height: 1.4;
 }
 
+img {
+  height: auto;
+}
+
 /* Layout */
 
 header,
@@ -198,4 +202,35 @@ h2 {
  
 .header h1 {
   margin-bottom: 0.5rem;
+}
+
+.split {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#profile {
+  width: 50%;
+
+  max-width: 10rem;
+
+  margin-inline: auto;
+}
+
+@media screen and (min-width: 50em) {
+  .split {
+    flex-direction: row;
+  }
+
+  #profile {
+    position: relative;
+    top: 1.5rem;
+
+    order: 1;
+
+    max-width: 15rem;
+
+    margin-bottom: auto;
+  }
 }
