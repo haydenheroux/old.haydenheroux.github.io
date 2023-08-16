@@ -19,7 +19,7 @@
 .highlight .o, .highlight .ow {
   color: #d0d0d0;
 }
-.highlight .p, .highlight .pi, .highlight .py, .highlight .gl {
+.highlight .p, .highlight .pi, .highlight .py, .highlight .n, .highlight .gl {
   color: #d0d0d0;
 }
 .highlight .gi {
@@ -63,7 +63,7 @@
 .highlight .nn {
   color: #f4bf75;
 }
-.highlight .nc {
+.highlight .nc, .highlight .nf  {
   color: #f4bf75;
 }
 .highlight .no {
