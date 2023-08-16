@@ -218,7 +218,7 @@ h2 {
   margin-bottom: 1rem;
 }
 
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 62.5em) {
   .split {
     flex-direction: row;
     row-gap: 4rem;
