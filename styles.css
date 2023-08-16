@@ -235,7 +235,6 @@ h2 {
 @media screen and (min-width: 62.5em) {
   .split {
     flex-direction: row;
-    gap: 4em;
   }
 
   #profile {
@@ -246,6 +245,7 @@ h2 {
 
     max-width: 15rem;
 
+    margin-left: 4em;
     margin-bottom: auto;
   }
 }
