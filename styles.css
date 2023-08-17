@@ -176,6 +176,7 @@ div.highlight, figure.highlight {
   border: 1px solid var(--clr-highlight-border);
   border-radius: 0.5rem;
 
+  margin-block: 2rem;
   padding: 1rem;
 }
 
