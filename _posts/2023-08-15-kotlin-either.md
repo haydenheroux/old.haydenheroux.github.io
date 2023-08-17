@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Writing a Either Class in Kotlin
+title: Writing an Either Class in Kotlin
 tags: software
 ---
 
@@ -30,7 +30,6 @@ val thingOrError: Either<Thing, ThingError> = getThingOrError()
 
 if (thingOrError is Success) {
     val thing: Thing = thingOrError.value
-    // handle thing
 }
 ```
 
@@ -41,7 +40,6 @@ val thingOrError: Either<Thing, ThingError> = getThingOrError()
 
 if (thingOrError is Error) {
     val error: ThingError = thingOrError.error
-    // handle error
 }
 ```
 
