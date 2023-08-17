@@ -10,7 +10,7 @@
   --clr-mono-400: var(--clr-mono-900);
   --clr-mono-900: #212529;
   --ff-main: "Open Sans", sans-serif;
-  --ff-main-weight: 400;
+  --ff-main-weight: 500;
   --ff-emphasis: "Open Sans", sans-serif;
   --ff-emphasis-weight: 700;
   --ff-mono: "Source Code Pro", monospace;
@@ -196,6 +196,8 @@ kbd {
   font-family: var(--ff-mono);
   font-weight: var(--ff-mono-weight);
   font-size: var(--fs-300);
+
+  text-transform: uppercase;
 
   border: 1px solid var(--clr-mono-400);
   border-radius: 0.375rem;
