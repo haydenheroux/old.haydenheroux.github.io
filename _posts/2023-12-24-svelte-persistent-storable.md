@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Persistent Storable
+title: Persistent Storable in Svelte
 tags: software
 ---
 
